@@ -10,6 +10,31 @@
 .container > div p{
     padding-top: 10px;
 }
+.names-input{
+    text-align: center;
+}
+.name{
+margin-left: 31%; 
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    margin-left: 31%; 
+}
+.event{
+    margin-left: 31%; 
+    gap: 20px;
+    display: flex;
+}
+button{
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(70, 70, 252);
+}
 footer{
-    
+    text-align: center;
 }
