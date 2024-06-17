@@ -9,7 +9,32 @@
 <body>
  <div class="container">
    
-    
+    <div class="container">
+        <h1>Event Registration Form</h1>
+        <form id="registrationForm">
+            <div class="error" id="errorName"></div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <div class="error" id="errorEmail"></div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <div class="error" id="errorPhone"></div>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+            
+            <div class="error" id="errorDate"></div>
+            <label for="date">Event Date:</label>
+            <input type="text" id="date" name="date" required>
+            
+            <div class="error" id="errorTickets"></div>
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" min="1" max="10" required>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
  </div>
     </div>
     <script src="scripts.js"></script>
