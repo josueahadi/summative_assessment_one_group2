@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container > div{
+    text-align: center;
+    padding-top: 25px;
+}
+.container > div p{
+    padding-top: 10px;
+}
+footer{
+    
+}
