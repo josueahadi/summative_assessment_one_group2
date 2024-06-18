@@ -10,57 +10,63 @@
 
 <body>
     <div class="container">
-            <div>
-                <h1>Event Registration Form</h1>
-                <p>Attendee Information</p>
-            </div>
-            
-            <form id="registrationForm">
-                <div class="error" id="errorName"></div>
-                <div class="name">
-                        <label for="name" class="">Name:</label><br>
-                        <div class="names-input">
-                            <input type="text" id="name" name="name" required>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                </div>
-                
-
-                <div class="contact">
-                    <div>
-                        <div class="error" id="errorEmail"></div>
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-    
-                    <div>
-                        <div class="error" id="errorPhone"></div>
-                        <label for="phone">Phone Number:</label><br>
-                        <input type="text" id="phone" name="phone" required>
-                    </div>
-                </div>
-
-                <div class="event">
-                    <div class="event-date">
-                        <div class="error" id="errorDate"></div>
-                        <label for="date">Event Date:</label><br>
-                        <input type="text" id="date" name="date" required>
-                    </div>
-    
-                    <div>
-                        <div class="error" id="errorTickets"></div>
-                        <label for="tickets">Number of Tickets:</label><br>
-                        <input type="number" id="tickets" name="tickets" min="1" max="10" required>
-                    </div>
-                </div>
-                
-                <button type="submit">Register</button>
-            </form>
+        <div>
+            <h1>Event Registration Form</h1>
+            <p>Attendee Information</p>
         </div>
-<!-- footer  -->
-<footer>
-    <p>Developed by Group 2 | &copy; 2024</p>
-</footer>
+
+        <form id="registrationForm">
+            <div class="error" id="errorName"></div>
+            <div class="name">
+                <label for="name" class="">Your Name:</label><br>
+                <div class="names-input">
+                    <div class="">
+                        <input type="text" id="firstName" name="name" required>
+                        <label for="firstName">First Name</label> 
+                    </div>
+                    <div class="">
+                        <input type="text" id="lastName" name="name" required>
+                        <label for="lastName">Last Name</label>
+                    </div>                    
+                </div>
+            </div>
+
+
+            <div class="contact">
+                <div>
+                    <div class="error" id="errorEmail"></div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <div class="error" id="errorPhone"></div>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="event-date">
+                    <div class="error" id="errorDate"></div>
+                    <label for="date">Event Date:</label><br>
+                    <input type="text" id="date" name="date" required>
+                </div>
+
+                <div>
+                    <div class="error" id="errorTickets"></div>
+                    <label for="tickets">Number of Tickets:</label><br>
+                    <input type="number" id="tickets" name="tickets" min="1" max="10" required>
+                </div>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <!-- footer  -->
+    <footer>
+        <p>Developed by Group 2 | &copy; 2024</p>
+    </footer>
     </div>
     <script src="scripts.js"></script>
 </body>
