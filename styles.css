@@ -75,6 +75,10 @@ input[type="text"], input[type="email"], input[type="number"] {
     gap: 10px;
 }
 
+.names-input>div {
+    width: 100%;
+}
+
 button {
     width: 100%;
     padding: 12px;
