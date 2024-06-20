@@ -50,10 +50,10 @@ document.addEventListener("DOMContentLoaded", function() {
             errorEmail.textContent = 'Please enter a valid email address.';
         } else errorEmail.textContent = '';
 
-        // Validate Phone Number
-        if (!/^\+\d{11,14}$/.test(phone.value)) {
+        // Phone Number validation
+        if (!/^\(\d{3}\)\s*\d{3}-\d{4}$/.test(phone.value)) {
             isValid = false;
-            errorPhone.textContent = 'Please enter a valid phone number in the format +250783478117 with first 4 digits as country code.';
+            errorPhone.textContent = 'Please enter a valid phone number in the format (123) 456-7890.';
         } else errorPhone.textContent = '';
 
         // Validate Event Date
